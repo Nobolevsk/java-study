@@ -10,12 +10,15 @@ import java.util.Scanner;
 public class Task_6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите число для переменной Т");
-        int T = scanner.nextInt();
 
         int X = 10;
         int Y = -10;
         int Z = 5;
+        System.out.println("Существует 3 константы: Х = "+X+"; Y = "+Y+"; Z = "+Z);
+
+        System.out.println("Введите число для переменной Т");
+        int T = scanner.nextInt();
+
 
         switch (T){
             case 10:
