@@ -1,5 +1,4 @@
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -8,11 +7,11 @@ import java.io.IOException;
 
 
 public class Task_15 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
-        try (BufferedReader reader = new BufferedReader(new FileReader("file.txt"))) {
-            String s = reader.readLine();
-            while (s != null)
+        String s;
+        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\user\\Documents\\programming\\gitrepo\\java-study\\src\\test\\resources\\file.txt"))) {
+            while ((s = reader.readLine()) != null)
                 System.out.println(s);
         }
         catch (IOException a){
