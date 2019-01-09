@@ -18,12 +18,12 @@ public class Task_12 {
 
         if (c>d){
             System.out.println("Длина строк: "+a.length() + ">" + b.length());
-            System.out.println("Первая строка является с наибольшей длиной - " +a.length());
+            System.out.println("Первая строка является с наибольшей длиной - " +a.length() + " ↓" + "\n" + a);
         } else if (c<d){
             System.out.println("Длина строк: "+a.length() + "<" + b.length());
-            System.out.println("Вторая строка является с наибольшей длиной - " +b.length());
+            System.out.println("Вторая строка является с наибольшей длиной - " +b.length() + " ↓" + "\n" + b);
         }
-        else System.out.println("Длина строк равна: "+ a.length() + "=" + b.length());
+        else System.out.println("Длина строк равна: "+ a.length() + "=" + b.length() + " ↓" + "\n" + a + "\n" + b);
 
     }
 }

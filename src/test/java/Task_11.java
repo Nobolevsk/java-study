@@ -1,5 +1,3 @@
-import org.hamcrest.core.IsNull;
-
 import java.util.Scanner;
 
 /** Задача №11: Удаление всех пробелов в заданном тексте Задание
