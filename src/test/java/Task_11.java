@@ -9,6 +9,9 @@ public class Task_11 {
         System.out.println("Введите строку с пробелами: ");
         String a = scanner.nextLine();
 
+        System.out.println("Строка без пробела: \n" + a.replace(" ", ""));
+
+        //Либо ↓↓↓
         char[] b = a.toCharArray();
         char d = '\0';
 
@@ -19,6 +22,5 @@ public class Task_11 {
         }
         String w = new String(b);
         System.out.println("Строка без пробелов имеет следующий вид: " +w);
-
     }
 }
