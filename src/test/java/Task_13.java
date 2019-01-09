@@ -13,8 +13,10 @@ public class Task_13 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число: ");
 
-        int a = scanner.nextInt();
-        String S = String.valueOf(a);
+        /*int a = scanner.nextInt();
+        String S = String.valueOf(a);*/
+
+        String S = scanner.next();
         System.out.println(" Строковая переменная S = " + S);
 
         // 2. Конвертация строковой переменной S в числовую переменную X типа int
