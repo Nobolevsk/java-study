@@ -7,13 +7,17 @@ import java.util.Scanner;
 public class Task_8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите число для размера массива: ");
-        int a = scanner.nextInt();
 
-        int mas[] = new int[a];
+
+        int mas[] = new int[4];
+        System.out.println("Введите данные массива");
+
+        mas[0] = scanner.nextInt();
+        mas[1] = scanner.nextInt();
+        mas[2] = scanner.nextInt();
+        mas[3] = scanner.nextInt();
+
         for (int i = 0; i < mas.length; i++) {
-            mas[i] = i;
-
             System.out.println(mas[i]*2);
         }
 
